@@ -4,6 +4,7 @@ int main() {
 
     int quantidade;
     int protocolo;
+    int i;
 
     printf("Quantos pacotes deseja analisar? ");
     scanf("%d", &quantidade);
@@ -15,7 +16,7 @@ int main() {
     }
     else {
 
-        for (int i = 1; i <= quantidade; i++) {
+        for (i = 1; i <= quantidade; i++) {
 
             printf("\nPacote %d\n", i);
 
